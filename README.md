@@ -171,6 +171,12 @@ HTML 드래그 앤 드롭 API는 일반 텍스트, URL, HTML 코드, 파일 등�
 
 자세한 사항은  [Recommended Drag Types](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Recommended_drag_types)을 참고합니다.
 
+이 문서에서는 축약형태인 text를 사용했지만 다음은 풀네임입니다. 
+* text/plain - text 
+* text/html - html 
+* text/url-list - url 목록
+
+
 ### Text
 ```jsx
 event.dataTransfer.setData("text/plain", "This is text to drag");
